@@ -1,5 +1,7 @@
 # PROYECTO-FINAL
 **DESCRIPCION DE PROPUESTA**
+
+
 Producción de A pilar (molduras automotrices) mediante el proceso de moldeo por inyección de plástico.
 Dentro del proceso de fabricación de molduras A pilar está la preparación de materia prima.
 Consta de un depósito de alimentación de materia prima (resina plástica) y otro depósito dónde es succionada para aplicar calor a una temperatura en un rango de 50°C a  60°C para así eliminar la humedad del material. Una vez que se elimina la humedad del material este es bombeado hacía la tolva mediante una manguera hacía la IMM (Inyection Machine Mould) 
@@ -7,6 +9,8 @@ Consta de un depósito de alimentación de materia prima (resina plástica) y ot
 ______________________
 
 **OBJETIVO**
+
+
 Para mejorar el proceso de control de temperatura y nivel de material dentro de los depósitos de materia prima del alimentador y secador implementaremos dos sensores DHT22, 2 sensores ultrasónicos HC-SR04, 2 LCD y una tarjeta ESP32.
 Cuando el nivel de material dentro de los tanques sea bajo se mandará una alarma y un mensaje de “Vacío”.
 Cuando el nivel de temperatura salga del rango de 50°C a 60°C se mandará una alarma y un mensaje de “temperatura alta o baja”.
