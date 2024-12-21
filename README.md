@@ -87,7 +87,7 @@ ______________________
  **CODIGO A UTILIZAR**
 
 Código de programación para monitorear la temperatura y nivel de los depósitos.
-
+'''
 #include <ArduinoJson.h>
 #include <WiFi.h>
 #include <PubSubClient.h>
@@ -271,7 +271,7 @@ TempAndHumidity  data = dhtSensor.getTempAndHumidity();
   }
 }
 
-
+'''
 **IMPORTACION A NODE-RED**
 
 Realizando todas las conexiones se tiene lo siguiente:
