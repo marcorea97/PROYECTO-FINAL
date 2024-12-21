@@ -77,6 +77,8 @@ ______________________
 **MODO DE CONEXION**
 
 
+![](https://github.com/marcorea97/PROYECTO-FINAL/blob/main/MODO%20DE%20CONEXION%20PROYECTO.png)
+
  ______________________
  **CODIGO A UTILIZAR**
 
@@ -270,27 +272,69 @@ TempAndHumidity  data = dhtSensor.getTempAndHumidity();
 
 Realizando todas las conexiones se tiene lo siguiente:
 
+![](https://github.com/marcorea97/PROYECTO-FINAL/blob/main/original-C6916F64-87DF-453C-BA86-9A1B5D900FA0%20(1).jpeg)
+
+
+
+
 
 _____________________________________
 
 **RESULTADOS**
 
+Al utilizar el software Node-RED, obtenemos una herramienta comparable a un HMI (Interfaz Hombre-Máquina) a nivel industrial, que nos permite visualizar datos estadísticos mediante gráficos y obtener los valores en tiempo real. Cada una de las variables es crucial para monitorear el proceso y evitar que se detenga debido a ajustes en las mismas.
+
+Para verificar que el sistema está funcionando correctamente, se pone en operación y se ajusta a las condiciones necesarias, permitiendo que se muestren las alertas configuradas en el código. El programa está diseñado para generar cinco señales, de modo que el operador pueda tomar las acciones necesarias para garantizar que el proceso continúe sin interrupciones.
+
 SEÑAL DE HUMEDAD INESTABLE
+
+
+Esta señal se nos presentara cuando exista un cambio en el valor de la humedad dentro del secador
+
+
+![](https://github.com/marcorea97/PROYECTO-FINAL/blob/main/original-EA10A9DE-0649-4D64-8DCA-F6E1F1AAC1A4.jpeg)
 
 
 SEÑAL DEL NIVEL DEL ALIMENTADOR
 
 
+Esta señal se activará cuando el nivel del alimentador esté bajo. Gracias a esta alerta visual y sonora en la pantalla, el operador podrá reabastecer el material sin interrumpir el proceso, lo que permite continuar con la operación sin necesidad de detenerse.
+
+
+![](https://github.com/marcorea97/PROYECTO-FINAL/blob/main/original-AF3F75A4-8AFD-420F-B1C8-789E3AEA33BF.jpeg)
+
+
+
+
 SEÑAL NIVEL DEL SECADOR (BAJO)
 
+
+Esta señal permitirá al operador monitorear el nivel del secador en tiempo real. Cuando el nivel esté bajo, el sistema le alertará mediante señales visuales y sonoras, lo que le permitirá añadir material al secador sin interrumpir el proceso. De esta manera, el operador podrá optimizar la producción sin necesidad de detenerse para recargar el secador 
+
+![](https://github.com/marcorea97/PROYECTO-FINAL/blob/main/original-510AAE4E-A7F5-48D7-94A4-8FE9806BED86.jpeg)
 
 
 SEÑAL DEL NIVEL DE TEMPERATURA (BAJA)
 
+Esta señal indica que la temperatura dentro del secador está por debajo del nivel óptimo. Ante esta alerta, el operador deberá ajustar la temperatura para evitar que el estado de la materia prima se vea afectado al pasar al siguiente proceso. Gracias a esta alarma, el operador podrá tomar las medidas necesarias para asegurar que el material no sufra desperfectos durante la transición al siguiente paso de producción.
+
+
+![](
+https://github.com/marcorea97/PROYECTO-FINAL/blob/main/original-FF8A1C21-0B3D-4739-BEAF-F165A0A878E2.jpeg)
+
 
 SEÑAL DEL NIVEL DE TEMPERATURA (ALTA)
 
+Esta señal indica que la temperatura dentro del secador es excesiva. Si la temperatura se mantiene en ese nivel, el material podría sufrir alteraciones en su composición y calidad. El operador deberá tomar medidas inmediatas para ajustar la temperatura y asegurar que se mantenga dentro de los niveles óptimos. Gracias a esta alerta, el operador tendrá la oportunidad de corregir la situación antes de que afecte el proceso
 
 
+![](https://github.com/marcorea97/PROYECTO-FINAL/blob/main/original-8BB8F168-BA06-4CD6-A84A-883A03F13774.jpeg)
 
-Conexiones realizadas entre los sensores y el microcontrolador.
+
+_______________________________
+
+**CONCLUSION**
+
+Gracias al uso del software Wokwi y Node-RED, se adquiere un conocimiento profundo sobre el funcionamiento de los sistemas de monitoreo hombre-máquina. Esto permite comprender cómo se utilizan estas herramientas y cómo podemos aprovechar sus capacidades en un entorno industrial para optimizar los procesos y mejorar la eficiencia
+
+
